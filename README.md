@@ -30,9 +30,9 @@ ESP32 project đọc cảm biến ánh sáng LDR và hiển thị đồ thị re
 
 \- \*\*LDR (Light Dependent Resistor)\*\*
 
-\- \*\*LED\*\* + điện trở 220Ω
+\- \*\*LED\*\* + điện trở 1k
 
-\- \*\*Điện trở 10kΩ\*\* (pull-down cho LDR)
+\- \*\*Điện trở 1kΩ\*\* (pull-down cho LDR)
 
 \- \*\*Breadboard và dây jumper\*\*
 
@@ -48,7 +48,7 @@ ESP32 Pin  | Component        | Notes
 
 GPIO 36    | LDR              | ADC1\_CH0 (Analog input)
 
-GPIO 5     | LED              | Through 220Ω resistor
+GPIO 5     | LED              | Through 1K resistor
 
 3.3V       | LDR + LED        | Power supply
 
